@@ -377,6 +377,12 @@ text-align: center;
   margin-bottom: 2vh;
 }
 
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+}
+
 .card-img-top {
   height: 60vh;
   width: 22vw;
@@ -651,72 +657,20 @@ text-align: center;
   text-align: center;
 }
 
-.form-style {
-  line-height: 1.2em;
-  border: none;
-  background: transparent;
-  outline: none;
-  display: block;
+.sign-up-btn {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fad502;
+  padding: 20px;
+  border-radius: 12%;
+  text-decoration: none;
+  color: #6A0DAD;
 }
 
-.form-style input[type="email"] {
-  box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	display: block;
-  width: 92%;  
-  opacity: .8;
-	padding: 7px;
-	border: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
-}
-
-.form-style input[type="text"] {
-  box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding: 3px;
-	border: none;
-	border-bottom: 1px solid #fff;
-  background: transparent;
-  opacity: .8;
-}
-
-.form-style input[type="submit"] {
-  -moz-box-shadow: inset 0px 1px 0px 0px #6A0DAD;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #6A0DAD;
-	box-shadow: inset 0px 1px 0px 0px #6A0DAD;
-	background-color: #fad502;
-  border: 1px solid #fff;
-  padding: 8px 10px 8px 10px;  
-  border-radius: 20px;
-  margin-top: 1.5vh;
-	display: inline-block;
-	cursor: pointer;
-  color: #FFFFFF;
-  font-weight: bold;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 14px;
-	padding: 8px 18px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.form-style-8 input[type="submit"]:hover {
-	background:linear-gradient(to bottom, #6A0DAD 5%, #6A0DAD 100%);
-	background-color: #6A0DAD;
-}
-
-.form-style-8 input[type="submit"]:active {
-	background:linear-gradient(to bottom, #6A0DAD 5%, #6A0DAD 100%);
-  background-color: #6A0DAD;
-  color: #fad502;
-}
-
-.form-style input::placeholder {
-  color: white;
-  opacity: 1;
+.sign-up-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1)
 }
 
 .special-font {
@@ -724,6 +678,11 @@ text-align: center;
   margin-left: 6vw;
   margin-top: 5vh;
   font-size: 1.5rem;
+}
+
+.special-text {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.8rem;
 }
 
 #privacy_header {
@@ -738,6 +697,14 @@ text-align: center;
   text-align: left;
   margin-left: 3vw;
   max-width: 90vw;
+}
+
+.app-footer__signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7vh;
+  margin-left: 4vw;
 }
 
 .app-footer__ender {
