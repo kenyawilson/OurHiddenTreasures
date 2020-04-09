@@ -639,7 +639,7 @@
       .section-title {
         margin-top: 20px;
         margin-bottom: 30px;
-        margin-left: 25vw;
+        margin-left: 0;
         width: 50vw;
         line-height: 40px;
         font-family: 'Gotu', sans-serif;
