@@ -1,3 +1,4 @@
+
 /* fixes white space on right of the screen*/
 html {
   font-size: 16px;
@@ -176,6 +177,31 @@ header .overlay {
   header {
     background: url('OurHiddenTreasuresevent.mp4') white no-repeat top top scroll;
   }
+}
+
+.shift-container {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  color: #6A0DAD;
+  background-color: #fad502;
+}
+
+.shift-box {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Gotu', sans serif;
+  font-size: .8rem;
+}
+
+.shift-header {
+  margin-bottom: 2vh;
+  text-align: center;
+  font-family: 'Kaushan Script', sans serif;
+}
+
+.big-letter {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .short-about {
