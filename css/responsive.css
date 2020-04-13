@@ -213,7 +213,18 @@
         margin-left: 3vw;
         padding: 5px;
     }
-    
+
+    .shop-item-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+    }
+
+    .shop-items {
+      margin-right: 10vw;
+      margin-left: 10vw;
+    }
 
       .footer-grid2 {
         display: flex;
@@ -686,6 +697,17 @@
         font-size: 1.5rem;
         margin-left: 40vw;
       }
+
+
+    .shop-item-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .shop-items {
+      margin-right: 2vw;
+      margin-left: 2vw;
+    }
 
 
       .app-footer__nav a, .app-footer__signup p, .form-style input[type="text"],

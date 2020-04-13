@@ -124,6 +124,7 @@ html {
 }
 .section-header {
     margin-top: 5vh;
+    margin-bottom: 8vh;
     font-family: 'Gotu', sans serif;
     font-weight: normal;
     color:  #6A0DAD;
@@ -246,18 +247,35 @@ html {
     max-width: 19%;
 }
 
-.shop-item {
-    margin: 30px;
+.buy-button {
+  padding: 10px;
+  color: #6A0DAD;
+  background-color: #fad502;
+  font-family: 'Prata', sans serif;
 }
 
-.shop-item-title {
+.shop-item-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shop-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8vh;
+}
+
+.product-title {
     font-family: 'Prata', sans serif;
     display: block;
     width: 100%;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
+    color:  #6A0DAD;
     margin-bottom: 15px;
 }
 
@@ -265,40 +283,11 @@ html {
     height: 250px;
 }
 
-.shop-item-image-tumbler {
-    height: 250px;
-    margin-left: 10vw;
-}
-
-.shop-item-details {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-}
-
-.shop-item-special {
-    display: flex;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    padding: 5px;
-}
-
 .shop-item-price {
     flex-grow: 1;
     color: #333;
     font-family: 'Prata', sans serif;
 }
-
-.shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.shop-item-price-tumbler {
-    margin-right: 70px;
-}
-
 
 .cart-header {
     font-weight: bold;
