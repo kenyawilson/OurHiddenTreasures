@@ -9,7 +9,7 @@
       .short-about-grid {
         display: flex;
         flex-direction: row; 
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 30px;
     }
@@ -217,7 +217,7 @@
     .shop-item-grid {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-wrap: nowrap;
     }
 
@@ -658,6 +658,21 @@
         font-style: italic;
         text-align: center;
       }
+
+      .big-centered {
+        margin-left: 25vw;
+      }
+
+      .board-card {
+        max-width: 25vw;
+      }
+
+       .board-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
 
       .events-grid {
         background-color: #fad502;
